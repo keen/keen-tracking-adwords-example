@@ -1,0 +1,31 @@
+{
+  "name": "keen-tracking-adwords-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server",
+    "build": "NODE_ENV=production webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keen/keen-tracking-adwords-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keen/keen-tracking-adwords-example/issues"
+  },
+  "homepage": "https://github.com/keen/keen-tracking-adwords-example#readme",
+  "dependencies": {
+    "keen-tracking": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
