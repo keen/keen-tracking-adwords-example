@@ -1,7 +1,5 @@
 ## keen-tracking-adwords-example
 
-Download this repository, then in the project folder run command
-
 ### Example
 
 ```javascript
